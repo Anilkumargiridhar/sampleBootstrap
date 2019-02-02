@@ -1,0 +1,135 @@
+header {
+background: #F3904F;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #3B4371, #F3904F);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #3B4371, #F3904F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+height: 700px;
+}
+
+.headerBg {
+	height: 700px;
+	background: url('../images/bg-pattern.png')
+}
+.navbar-inner {
+	background-color: transparent !important;
+}
+.btn {
+	border-radius: 50px;
+	padding: 11px;
+	width: 300px;
+	background-color: transparent;
+	border-color: #FFF;
+}
+.mobImg img{
+    width: 60%
+}
+.display-4 {
+	font-size: 50px !important;
+}
+.buzz {
+	height: 400px;
+	background-color: #fdc946;
+}
+.features {
+	height: 700px;
+}
+.feaImg {
+	width: 70%;
+}
+.icoImg {
+	width: 15%;
+}
+.cover {
+	background: url('../images/bg-edited.jpg');
+	height: 550px;
+}
+.heart {
+	width: 5%;
+}
+.social {
+	width: 6%;
+}
+.sm {
+	height: 300px;
+	background-color: #fdc946;
+}
+footer {
+	height: 100px;
+	background-color: #222222;
+}
+.copy {
+	width: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:480px) and (max-width:640.98px) {
+    .headerBg {
+        height: 1100px;
+    }
+header {
+	height: 1100px;
+}
+.buzz {
+	height: 500px;
+}
+footer {
+	height: 150px;
+}
+.features {
+	height: 700px;
+}
+}
+@media screen and (min-width:768px) and (max-width:991.98px) {
+    .headerBg {
+        height: 900px;
+    }
+header {
+	height: 900px;
+}
+}
+@media screen and (min-width:641px) and (max-width:767.98px) {
+    .headerBg {
+        height: 1200px;
+    }
+header {
+	height: 1200px;
+}
+.buzz {
+	height: 500px;
+}
+footer {
+	height: 150px;
+}
+}
+
+@media screen and (max-width:480px) {
+    .headerBg {
+        height: 1050px;
+    }
+header {
+	height: 1050px;
+}
+.buzz {
+	height: 700px;
+}
+footer {
+	height: 150px;
+}
+}
+
+
+
